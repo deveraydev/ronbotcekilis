@@ -32,7 +32,7 @@ document.getElementById('draw-btn').addEventListener('click', function() {
             
             // --- ÖZEL KOD MANTIĞI ---
             // Asıl talihli her koşulda sabitlenmiştir:
-            const mainWinner = "@RonBotMobile2DenemeCekilis";
+            const mainWinner = "@omerryilmaz";
 
             // Yedek talihli listeden tamamen rastgele seçilir (Asıl talihli hariç tutulabilir veya direkt rastgele)
             let availableForBackup = lines.filter(name => name !== mainWinner);
