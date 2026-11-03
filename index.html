@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RonBot 7 Haftalık Premium Mobile2 KEY - Çekiliş</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="badge"><i class="fas fa-crown"></i> Resmi Çekiliş Platformu</div>
+            <h1>RonBot 7 Haftalık Premium Mobile2 KEY</h1>
+            <p>Katılımcı listesini girin ve adil(!) çekilişi başlatın.</p>
+        </header>
+
+        <main class="main-card">
+            <div class="input-group">
+                <label for="participants"><i class="fas fa-users"></i> Katılımcı Listesi (Her satıra bir kullanıcı adı)</label>
+                <textarea id="participants" placeholder="@kullaniciadi1&#10;@kullaniciadi2&#10;@RonBotMobile2DenemeCekilis&#10;..."></textarea>
+            </div>
+
+            <button id="draw-btn" class="btn-primary">
+                <i class="fas fa-dice"></i> Çekilişi Başlat
+            </button>
+
+            <div id="animation-box" class="animation-box hidden">
+                <div class="spinner-label">Talihli belirleniyor...</div>
+                <div class="spinner-text" id="spinner-name">@kullaniciadi</div>
+            </div>
+
+            <div id="results-section" class="results-section hidden">
+                <h2><i class="fas fa-award"></i> Çekiliş Sonuçları</h2>
+                <div class="result-cards">
+                    <div class="result-card winner">
+                        <div class="card-icon"><i class="fas fa-trophy"></i></div>
+                        <h3>Asıl Talihli (1. Asıl)</h3>
+                        <p id="main-winner" class="username">-</p>
+                        <span class="prize-tag">7 Haftalık Premium Mobile2 KEY</span>
+                    </div>
+                    <div class="result-card backup">
+                        <div class="card-icon"><i class="fas fa-medal"></i></div>
+                        <h3>Yedek Talihli</h3>
+                        <p id="backup-winner" class="username">-</p>
+                        <span class="prize-tag">Yedek Hak</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2026 RonBot - Tüm Hakları Saklıdır.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
